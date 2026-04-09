@@ -11,9 +11,9 @@ const App = () => {
   return (
    <>
    <HashRouter>
-
-<Routes>
 <Header/>
+<Routes>
+
 
 <Route path='/' element = {<Home/>}/>
 <Route path='/contact' element = {<Contact/>}/>
@@ -21,9 +21,10 @@ const App = () => {
 <Route path='/project' element = {<Projects/>}/>
 <Route path='/about' element = {<About/>}/>
 
-<Footer/>
+
 
 </Routes>
+<Footer/>
 
    </HashRouter>
    
